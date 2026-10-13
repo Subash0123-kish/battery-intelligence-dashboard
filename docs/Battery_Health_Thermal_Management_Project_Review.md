@@ -730,6 +730,8 @@ flowchart TD
     H --> I["Streamlit Dashboard\n(Battery Intelligence)"]
 ```
 
+![Figure 1: Overall Research Workflow](assets/figure1_research_workflow.png)
+
 *Figure 1: Overall research workflow.*
 
 ### 5.2 Data Loading
