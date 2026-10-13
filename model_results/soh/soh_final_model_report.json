@@ -1,0 +1,31 @@
+{
+    "target": "SOH_percent",
+    "split_method": "GroupShuffleSplit by battery_id",
+    "random_state": 42,
+    "test_size": 0.25,
+    "training_records": 769,
+    "testing_records": 294,
+    "training_batteries": 25,
+    "testing_batteries": 9,
+    "battery_overlap": 0,
+    "results": [
+        {
+            "Model": "Linear Regression",
+            "MAE": 606.483034943115,
+            "RMSE": 1120.3838164330903,
+            "R2": -0.3262789916972182
+        },
+        {
+            "Model": "Random Forest Baseline",
+            "MAE": 605.8665011181831,
+            "RMSE": 1111.1004139390777,
+            "R2": -0.3043911852875063
+        },
+        {
+            "Model": "Random Forest Multi-feature",
+            "MAE": 575.6518054733245,
+            "RMSE": 1048.7452090130125,
+            "R2": -0.1620938858426022
+        }
+    ]
+}

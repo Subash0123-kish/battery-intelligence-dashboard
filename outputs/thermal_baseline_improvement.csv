@@ -1,0 +1,3 @@
+Model,MAE_C,MAE_improvement_vs_baseline_percent
+Linear Regression,0.06778614158303499,42.80161046833816
+Random Forest,0.04607789970417548,61.11916691921747

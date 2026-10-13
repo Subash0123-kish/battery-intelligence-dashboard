@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+venv/
+.env
+battery-pinn-env/
+
+# Streamlit secrets and IDE files
+.streamlit/secrets.toml
+.agents/
+.claude/
+
+# Files exceeding GitHub 100MB limit
+charge.csv
+data/processed/physics_thermal_observations.csv
+data/processed/thermal_prediction_dataset.csv

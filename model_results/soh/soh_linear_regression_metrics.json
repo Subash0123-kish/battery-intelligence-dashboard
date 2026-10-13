@@ -1,0 +1,15 @@
+{
+    "model": "Linear Regression",
+    "features": [
+        "cycle_number"
+    ],
+    "target": "SOH_percent",
+    "split_method": "GroupShuffleSplit by battery_id",
+    "training_records": 2029,
+    "testing_records": 721,
+    "training_batteries": 25,
+    "testing_batteries": 9,
+    "mae": 580.9335647765583,
+    "rmse": 1026.5309175963937,
+    "r2": -0.28819877449147646
+}

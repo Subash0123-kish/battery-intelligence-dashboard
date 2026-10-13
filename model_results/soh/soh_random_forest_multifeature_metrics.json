@@ -1,0 +1,23 @@
+{
+    "model": "Random Forest Multi-feature SOH",
+    "features": [
+        "cycle_number",
+        "voltage_mean",
+        "voltage_min",
+        "voltage_max",
+        "current_mean",
+        "current_max",
+        "temperature_mean",
+        "temperature_max",
+        "discharge_duration"
+    ],
+    "target": "SOH_percent",
+    "split_method": "GroupShuffleSplit by battery_id",
+    "training_records": 769,
+    "testing_records": 294,
+    "training_batteries": 25,
+    "testing_batteries": 9,
+    "mae": 575.5409802356094,
+    "rmse": 1048.4835695195077,
+    "r2": -0.1615141230438939
+}

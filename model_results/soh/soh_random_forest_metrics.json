@@ -1,0 +1,15 @@
+{
+    "model": "Random Forest Regressor",
+    "features": [
+        "cycle_number"
+    ],
+    "target": "SOH_percent",
+    "split_method": "GroupShuffleSplit by battery_id",
+    "training_records": 2029,
+    "testing_records": 721,
+    "training_batteries": 25,
+    "testing_batteries": 9,
+    "mae": 587.3276628474417,
+    "rmse": 1025.3642562428427,
+    "r2": -0.28527234007950275
+}

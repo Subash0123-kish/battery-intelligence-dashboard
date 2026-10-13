@@ -1,0 +1,36 @@
+THERMAL PREDICTION MODEL EVALUATION
+==================================
+
+Dataset:
+NASA lithium-ion battery discharge measurements
+
+Prediction task:
+Predict the next observed battery temperature.
+
+Evaluation:
+Battery-level train/test split.
+
+Best model by test MAE:
+Random Forest
+
+MAE:
+0.04608 °C
+
+RMSE:
+0.10077 °C
+
+R²:
+0.99996
+
+Models compared:
+               Model   MAE_C  RMSE_C      R2
+Persistence Baseline 0.11851 0.17634 0.99988
+   Linear Regression 0.06779 0.10362 0.99996
+       Random Forest 0.04608 0.10077 0.99996
+
+Limitations:
+1. Results apply to the selected held-out batteries and split.
+2. Next-observation prediction is not fixed-horizon forecasting.
+3. Performance should be compared with persistence.
+4. Physical parameters require independent justification or calibration.
+5. The physics-regularized prototype is not a fully validated electrothermal PINN.
